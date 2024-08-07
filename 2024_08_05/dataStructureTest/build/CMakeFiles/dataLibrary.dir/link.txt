@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdataLibrary.a CMakeFiles/dataLibrary.dir/Source/ArrayList.c.o CMakeFiles/dataLibrary.dir/Source/Point.c.o
+/usr/bin/ranlib libdataLibrary.a

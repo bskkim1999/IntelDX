@@ -1,0 +1,4 @@
+/home/dx/0805/dataStructureTest/build/CMakeFiles/dataLibrary.dir
+/home/dx/0805/dataStructureTest/build/CMakeFiles/program_exe_file.dir
+/home/dx/0805/dataStructureTest/build/CMakeFiles/edit_cache.dir
+/home/dx/0805/dataStructureTest/build/CMakeFiles/rebuild_cache.dir
