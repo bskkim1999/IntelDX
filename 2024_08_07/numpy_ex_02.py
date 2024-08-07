@@ -10,5 +10,9 @@ plt.xlabel("day")
 plt.ylabel("temperature")
 plt.legend(loc="upper left")
 plt.title("Temperatures of Cities")
+
+#막대그래프
+#plt.bar(X, Y1) 
+
 plt.show()
 
