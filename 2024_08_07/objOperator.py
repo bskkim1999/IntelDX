@@ -7,7 +7,7 @@ class Vector2D:
         return Vector2D(self.x+other.x, self.y + other.y)
     
     def __sub__(self, other):
-        return Vector2D(self.x+other.x, self.y+other.y)
+        return Vector2D(self.x-other.x, self.y-other.y)
     
     def __eq__(self, other):
         return (self.x==other.x and self.y==other.y)
