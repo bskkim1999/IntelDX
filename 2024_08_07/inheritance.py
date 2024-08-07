@@ -12,7 +12,7 @@ class Car:
         return self.make
     
     def printInfo(self):
-        return self.make + self.model + self.color + self.price
+        return self.make + "/" + self.model + "/" + self.color + "/" + str(self.price)
     
 
 class ElectricCar(Car):
@@ -26,4 +26,19 @@ class ElectricCar(Car):
     def getBatterSize(self):
         return self.batterySize
     
+    def printInfoElec(self):
+        return super().printInfo() + str(self.batterySize)
+    
         
+def main():
+    
+    basicCar = Car("Hyundae", "Avante", "black", 2000000)
+    print(basicCar.printInfo())
+    myCar = ElectricCar("Tesla", "Model S", "white", 100000, 0)
+    myCar.setMake("Tesla")
+    myCar.setBatterySize(60)
+    print(myCar.printInfo())
+    
+    
+if __name__ == "__main__":
+    main()
